@@ -26,12 +26,15 @@ int main(){
             count = 0;
         }
     }
+
+    //Maximum : If there are several soldiers with maximum height, use the one already closest to the front.
     for(int i=0 ; i<n ; i++){
         if(v[i] > maxi){
             maxi = v[i];
             maxin = i;
         }
     }
+    //Minimum  : If there are several soldiers with minimum height, use the one already closest to the end.
     for(int i=0 ; i<n ; i++){
         if(v[i] <= mini){
             mini = v[i];
