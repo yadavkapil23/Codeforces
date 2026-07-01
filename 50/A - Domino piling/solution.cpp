@@ -1,0 +1,15 @@
+#include<iostream>
+#include<algorithm>
+#include<vector>
+using namespace std;
+int main(){
+    int M,N;
+    cin>>M>>N;
+    
+    int area_rect = M*N;
+    int area_square = 2*1;
+    int count = area_rect/area_square;
+    
+    cout<<count<<endl;
+    return 0;
+}
